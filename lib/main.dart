@@ -91,13 +91,14 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Image.asset(
                     'assets/images/cactus.jpg',
                     height: 240,
-                    width: 300,
+                    width: _counter.toDouble(),
                   ),
                 ),
                 Text("Donut",
                     style: TextStyle(
                       color: Color(0xffff80e0),
-                    )
+                      fontFamily: "IslandMoments",
+                    ),
                 ),
                 Text("Marshmallow",
                     style: TextStyle(
